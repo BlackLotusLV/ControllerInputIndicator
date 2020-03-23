@@ -1,0 +1,24 @@
+﻿<Window x:Name="mainWindow" x:Class="ControllerView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControllerView"
+        mc:Ignorable="d"
+        Title="Gamepad Input Display" Height="230" Width="810" ResizeMode="NoResize">
+    <Grid x:Name="BaseGrid" Background="#202428">
+        <Label x:Name="NosLabel" Content="NOS" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Height="70" Width="120" FontWeight="Bold" FontSize="50" />
+        <Label x:Name="HandBrakeLabel" Content="HB" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="120,0,0,0" VerticalAlignment="Top" Height="70" Width="90" FontWeight="Bold" FontSize="50" />
+        <Label x:Name="BoTLabel" Content="Back On Track" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" Height="50" Width="210" FontWeight="Bold" FontSize="30" />
+        <Label x:Name="Accelerate" Content="" HorizontalAlignment="Left" Margin="210,0,0,0" VerticalAlignment="Top" Height="60" Width="545" FontWeight="Bold" FontSize="50" Background="Green" />
+        <Label x:Name="Decelerate" Content="" HorizontalAlignment="Left" Margin="210,60,0,0" VerticalAlignment="Top" Height="60" Width="545" FontWeight="Bold" FontSize="50" Background="Red" />
+        <Rectangle x:Name="LeftTurn" HorizontalAlignment="Right" Height="80" Margin="0,120,397,0" Stroke="Black" VerticalAlignment="Top" Width="0" Fill="#FF002DF9" />
+        <Rectangle x:Name="RightTurn" HorizontalAlignment="left" Height="80" Margin="397,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="0" Fill="#FF002DF9" />
+        <Label x:Name="GearUp" Content="⬆" HorizontalAlignment="Left" Margin="755,0,0,0" VerticalAlignment="Top" Height="60" Width="40" FontSize="50" FontWeight="Bold" FontFamily="Arial Black" />
+        <Label x:Name="GearDown" Content="⬇" HorizontalAlignment="Left" Margin="755,60,0,0" VerticalAlignment="Top" Height="60" Width="40" FontSize="50" FontWeight="Bold" FontFamily="Arial Black" />
+        <Label x:Name="LeftLabel" Content="Left" HorizontalAlignment="Right" HorizontalContentAlignment="Right" Margin="0,120,397,0" VerticalAlignment="Top" Height="80" Width="400" FontWeight="Bold" FontSize="40" />
+        <Label x:Name="RightLabel" Content="Right" HorizontalAlignment="left" HorizontalContentAlignment="Left" Margin="397,120,0,0" VerticalAlignment="Top" Height="80" Width="400" FontWeight="Bold" FontSize="40" />
+        <Label x:Name="AccLabel" Content="Accelerate" HorizontalAlignment="Left" Margin="210,0,0,0" VerticalAlignment="Top" Height="60" Width="545" FontWeight="Bold" FontSize="40" />
+        <Label x:Name="DecLabel" Content="Brakes/Reverse" HorizontalAlignment="Left" Margin="210,60,0,0" VerticalAlignment="Top" Height="60" Width="545" FontWeight="Bold" FontSize="40" />
+    </Grid>
+</Window>

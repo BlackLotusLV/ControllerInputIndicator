@@ -1,0 +1,51 @@
+{
+  "Nitro": {
+    "Colour": "#FF002DF9",
+    "Button": 4096
+  },
+  "Handbrake": {
+    "Colour": "#FF0000",
+    "Button": 16384
+  },
+  "GearUp": {
+    "Colour": "#FF002DF9",
+    "Button": 0 // setting this to 0 will hide gear shift buttons
+  },
+  "GearDown": {
+    "Colour": "#FF002DF9",
+    "Button": 0 // setting this to 0 will hide gear shift buttons
+  },
+  "BoT": {
+    "Colour": "#FF0000",
+    "Button": 256,
+    "Button2": 512 //set to 0 if only using one button
+  },
+  "Colour": {
+    "Left": "#FF002DF9",
+    "Right": "#FF002DF9",
+    "Accel": "#00ff00",
+    "Decel": "#FF0000",
+    "Background": "#202428",
+    "Borders": true
+  }
+}
+/*
+  List of xbox buttons
+
+        None = 0,
+        DPadUp = 1,
+        DPadDown = 2,
+        DPadLeft = 4,
+        DPadRight = 8,
+        Start = 16,
+        Back = 32,
+        LeftThumb = 64,
+        RightThumb = 128,
+        LeftShoulder = 256,
+        RightShoulder = 512,
+        A = 4096,
+        B = 8192,
+        X = 16384,
+        Y = 32768
+
+*/

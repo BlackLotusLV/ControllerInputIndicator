@@ -1,1 +1,3 @@
- 
+ControllerView/bin/*
+ControllerView/obj/*
+.vs/* 
